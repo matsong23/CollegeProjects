@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.accounts h3 {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .accounts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+}

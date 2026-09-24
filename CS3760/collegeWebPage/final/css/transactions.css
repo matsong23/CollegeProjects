@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.debit-credit h3 {
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .examples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .debit-credit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .upper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+h2 {
+    text-align: center;
+}
+
+.transaction-table {
+    place-items: center;
+}
+
+.accounts-table {
+    place-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.none {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .transactions-tables {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+}

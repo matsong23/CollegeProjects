@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" contenet="Gunnar Matson" />
+    <meta name="description" content="Accounting transaction examples" />
+    <meta name="keywords" content="CS3760, accounting, transaction" />
+    <link rel="stylesheet" href="../css/table.css" />
+    <link rel="stylesheet" href="../css/page.css" />
+    <link rel="stylesheet" href="../css/csv.css" />
+    <title>Accounting Transaction Examples</title>
+  </head>
+  <body>
+    <header>
+      <h1>Accounting Transaction Examples</h1>
+      <nav>
+        <a href="../homepage/">[Home Page]</a>
+        <a href="../accounts/">[Accounts Lesson]</a>
+        <a href="../transactions/">[Transactions Lesson]</a>
+        <a href="../quiz/">[Quiz]</a>
+        <a href="../csv_example/" class="current">[Example Transactions]</a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <button onclick="loadCSV()">Load Example Transactions</button>
+      <h2 id="t-header" class="none">Transactions</h2>
+      <div id="transactions-tables" class="transactions-tables"></div>
+      <div id="accounts-table" class="accounts-table"></div>
+    </main>
+    <footer>
+      <hr />
+      <p>
+        This page was developed by Gunnar Matson, for the CS3760
+        <q>Front End Dev & Accessibility</q> course in Fall 2025 at Michigan
+        Tech
+      </p>
+    </footer>
+    <script src="csv.js"></script>
+  </body>
+</html>

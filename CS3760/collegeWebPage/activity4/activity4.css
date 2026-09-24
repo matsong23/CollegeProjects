@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+}
+
+/* define section sizes */
+.a {
+    width: 100vw;
+    height: 25%;
+}
+.b {
+    width: 25vw;
+}
+.c {
+    width: 75vw;
+}
+.d {
+    width: calc(100vw * (5/12));
+}
+.e {
+    width: calc(100vw * (7/12));
+}
+.f {
+    width: 100vw;
+    height: 25%;
+}
+
+/* rows for sections b, c, d, and e */
+.row1 {
+    height:  50%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1%;
+}
+.row2 {
+    height:  25%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 1%;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+}
+p {
+    padding: 1%;
+    margin: 0;
+}
+nav {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid black;
+}
+.colored{
+    background-color: #B4FF1F;
+    color: #691FFF;
+
+}
+.cheeses {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1%;
+    padding: 1%;
+}
+.grid-element {
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.grid-element p {
+    padding: 0;
+}
+
+/* 
+    advanced css style 
+    pointless but very cool
+*/
+.e:hover {
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+.b:hover {
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+.d:hover {
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+.c:hover {
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+
+/* responsive design */
+/* medium screens */
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .b {
+        width: 50vw;
+    }
+    .c {
+        width: 50vw;
+    }
+    .d {
+        width: 50vw;
+    }
+    .e {
+        width: 50vw;
+    }
+}
+
+/* small screens */
+@media screen and (max-width: 500px) {
+    .b {
+        width: 100vw;
+        height: 65vh;
+    }
+    .c {
+        width: 100vw;
+        margin-bottom: 2%;
+        border-bottom: 5px solid black;
+    }
+    .d {
+        width: 100vw;
+    }
+    .e {
+        width: 100vw;
+    }
+    .row1 {
+        grid-template-columns: 1fr;
+    }
+    .row2 {
+        grid-template-columns: 1fr;
+    }
+}

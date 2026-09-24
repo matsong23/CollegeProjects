@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* custom fallback font */
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('Black_Ops_One/BlackOpsOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+
+/* font size and line height for readability plus font family */
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: BlackOpsOne, 'Courier New';
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+/* 5 atomic classes */
+.pad_1p {
+    padding: 1%;
+}
+
+/* border class */
+.border {
+    border: 1px solid black;
+}
+
+/* used for grid like structure for text sections */
+.back_grey {
+    background-color: #9C9C9C;
+}
+
+.back_lightgrey {
+    background-color: lightgrey;
+}
+
+.border_box {
+    box-sizing: border-box;
+}
+/* end 5 atomic classes */
+
+/* sematic classes */
+.text_section {
+    padding: 1%;
+    width: 100%;
+}
+
+/* small device size */
+@media screen and (max-width: 500px) {
+    .text_section_box_size {
+        height: 100%;
+        margin: 1%;
+    }
+    h1 {
+        background-color: #ff6b6b;
+    }
+}
+
+/* medium device size */
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .text_section_box_size {
+        height: 100%;
+        margin: 1%;
+    }
+    h1 {
+        background-color: #6bff6b;
+    }
+}
+
+/* large device size */
+@media screen and (min-width: 800px) {
+    .text_section_box_size {
+        width: 46%;
+        min-width: 250px;
+        max-width: 700px;
+        height: 100%;
+        margin: 1%;
+        float: left;
+    }
+    h1 {
+        background-color: #8a8aff;
+    }
+}

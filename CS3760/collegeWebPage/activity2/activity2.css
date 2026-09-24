@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 
+    had to change this so that the page fully took up the window
+*/
+html, body {
+    margin: 0;
+    padding: 0%;
+}
+
+h1 {
+    margin: 0;
+    color: #691FFF;
+}
+
+h2 {
+    color: #691FFF;
+}
+
+h3 {
+    color: #691FFF;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+    background-color: #691FFF;
+}
+
+nav {
+    background-color: #691FFF;
+}
+
+nav a {
+    color: #B4FF1F;
+}
+
+main {
+    padding: 1%;
+    min-height: 90vh;
+    background-color: #B4FF1F;
+}
+
+footer p {
+    padding: 2%;
+    margin: 0;
+    color: #ffffff;
+}
+
+.source-link, .source-link a {
+    font-size: small;
+}
+
+.source-link a {
+    color: #691FFF;
+}
+
+/* 
+    Link styles
+*/
+a:link {
+    font-weight: normal;
+}
+
+a:hover {
+    font-size: large;
+}
+
+a:visited {
+    font-weight: bold;
+}
+
+a:active {
+    font-style: italic;
+}
+
+/*
+    Table styles
+*/
+.main {
+    text-align: left;
+}
+
+.nav {
+    text-align: center;
+}
+
+.footer {
+    text-align: right;
+}
+
+.fav {
+    color: #ffffff;
+    background-color: #691FFF;
+}
+
+.aaa {
+    font-weight: bold;
+    text-decoration: underline double teal;
+}
+
+th {
+    font-size: large;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    /* 
+        add this to show that the cells center, left, or right align correctly
+        other wise it was impossible to tell 
+    */
+    width: 1%; 
+}

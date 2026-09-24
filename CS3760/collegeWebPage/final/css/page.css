@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #FFD359;
+}
+
+header{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+main p {
+    padding: 2%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 2%;
+   justify-content: center;
+}
+
+nav a {
+    color: #C4D7E6;
+    background-color: #0B3954;
+    padding: 5px;
+}
+
+nav a.current {
+    background-color: #C4D7E6;
+    color: #0B3954;
+}

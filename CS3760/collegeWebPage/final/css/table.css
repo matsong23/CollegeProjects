@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+table {
+    background-color: #ffffff;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid #969696;
+    color: #ffd359;
+    background-color: #0b3954;
+}
+
+tr {
+    border: 2px solid #969696
+}
+
+td {
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid #969696;
+    background-color: #ffd359;
+    color: #0b3954;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.overview p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.colors{
+    display: flex;
+}
+
+.c1 {
+    background-color: #FFD359;
+    width: 20vw;
+    height: 70px;
+}
+.c2 {
+    background-color: #000000;
+    width: 20vw;
+    height: 70px;
+}
+.c3 {
+    background-color: #0B3954;
+    width: 20vw;
+    height: 70px;
+}
+.c4 {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 70px;
+}
+.c5 {
+    background-color: #C4D7E6;
+    width: 20vw;
+    height: 70px;
+}
+
+table {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .pages {
+        display: flex;
+    }
+}

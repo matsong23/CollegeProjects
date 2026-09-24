@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h3 {
+    text-align: center;
+}
+
+img {
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 650px) {
+    .upper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .systems {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+}

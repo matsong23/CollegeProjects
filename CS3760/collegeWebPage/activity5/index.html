@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" contenet="Gunnar Matson" />
+    <meta name="description" content="CS3760 Activity 5" />
+    <meta name="keywords" content="CS3760, Activity5" />
+    <link rel="stylesheet" href="activity5.css" />
+    <title>Activity 5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Activity 5</h1>
+      <nav>
+        <a href="../">[Home]</a>
+        <a href="../cs3760/">[CS3760]</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <div class="box">
+        <canvas
+          id="myCanvas"
+          width="700"
+          height="450"
+          role="application"
+          aria-label="This canvas will allow you to place shapes inside of it and
+            randomize them."
+        >
+          <p>
+            I chose application for the role because it is like a absttract art
+            drawing app. The label describes how it works.
+          </p>
+        </canvas>
+        <section class="canvas-actions">
+          <button class="clear" onclick="clearCanvas()">Clear</button>
+          <button class="secondary" onclick="randomize()">Randomize</button>
+          <button class="primary" onclick="addSquare()">Add Square</button>
+          <button class="primary" onclick="addCircle()">Add Circle</button>
+          <button class="primary" onclick="addRectangle()">
+            Add Rectangle
+          </button>
+        </section>
+      </div>
+      <section class="video-player">
+        <!-- The width is the file width so that border looks right -->
+        <video controls width="960" height="540">
+          <source src="activity5video.mp4" type="video/mp4" />
+          <source src="activity5video.webm" type="video/webm" />
+          <track kind="captions" src="activity5transcript.vtt" srclang="en" />
+        </video>
+        <div class="controls">
+          <button class="play-pause">Play</button>
+          <button class="stop">Stop</button>
+          <button class="rwd">Rwd</button>
+          <button class="fwd">Fwd</button>
+          <button class="sub">TURN CC ON</button>
+          <div class="time">00:00</div>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        This page was developed by Gunnar Matson, for the CS3760
+        <q>Front End Dev & Accessibility</q> course in Fall 2025 at Michigan
+        Tech
+      </p>
+    </footer>
+    <script src="activity5.js"></script>
+  </body>
+</html>

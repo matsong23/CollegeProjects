@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" contenet="Gunnar Matson" />
+    <meta name="description" content="Accounting Knowledge Test" />
+    <meta name="keywords" content="CS3760, accounting, quiz" />
+    <link rel="stylesheet" href="../css/page.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Accounting Quiz</title>
+  </head>
+  <body>
+    <header>
+      <h1>Accounting Knowledge Test</h1>
+      <nav>
+        <a href="../homepage/">[Home Page]</a>
+        <a href="../accounts/">[Accounts Lesson]</a>
+        <a href="../transactions/">[Transactions Lesson]</a>
+        <a href="../quiz/" class="current">[Quiz]</a>
+        <a href="../csv_example/">[Example Transactions]</a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <form id="quiz">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="q1" size="30" placeholder="Name" required/>
+        <hr />
+        <p>Can a line in a transaction have multiple accounts?</p>
+        <input type="radio" name="q2" value="yes" /><span>Yes</span>
+        <input type="radio" name="q2" value="no" /><span>No</span>
+        <hr />
+        <p>Can a line in a transaction have both a debit and a credit?</p>
+        <input type="radio" name="q3" value="yes" /><span>Yes</span>
+        <input type="radio" name="q3" value="no" /><span>No</span>
+        <hr />
+        <p>What is necessary about a transaction:</p>
+        <input type="checkbox" name="q4" value="CorD" /><span>Each line must have a debit or a credit amount</span>
+        <input type="checkbox" name="q4" value="acct" /><span>Each line must have an account</span>
+        <input type="checkbox" name="q4" value="onlyCorD" /><span>Every line must have only debits or only credits</span>
+        <input type="checkbox" name="q4" value="at1line" /><span>Composed of at least 1 line</span>
+          >Credits</label
+        >
+        <hr />
+        <p>
+          What is the end balance as of 12/31 of an account that has a debit
+          of $800 in 7/21, credit of $400 in 8/06, debit of $500 in 9/30, and
+          a credit of $600 in 10/11? Assuming retained earnings is applied
+          with the last mnonth in the fiscal year is September.
+        </p>
+        <input type="radio" name="q5" value="2300" /><span>$2,300</span>
+        <input type="radio" name="q5" value="300" /><span>$300</span>
+        <input type="radio" name="q5" value="-300" /><span>-$300</span>
+        <input type="radio" name="q5" value="-600" /><span>-$600</span>
+
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+      <hr id="bres" class="none" />
+      <section id="result"></section>
+    </main>
+    <footer>
+      <hr />
+      <p>
+        This page was developed by Gunnar Matson, for the CS3760
+        <q>Front End Dev & Accessibility</q> course in Fall 2025 at Michigan
+        Tech
+      </p>
+    </footer>
+    <script src="quiz.js"></script>
+  </body>
+</html>

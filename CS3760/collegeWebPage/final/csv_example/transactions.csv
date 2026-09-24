@@ -1,0 +1,30 @@
+Account Name,Account type,Debit,Credit,Transaction Number
+Maintence,expense,,40000,1
+Savings,bank,,40000,1
+Sales,income,,50000,2
+AR,accounts receivable,20000,,2
+Savings,bank,,60000,3
+Credit Card,liability,30000,10000,3
+AR,accounts receivable,40000,,3
+Savings,Bank,,60000,4
+Credit Card,liability,60000,,4
+Savings,bank,,60000,5
+Maintence,expense,60000,,5
+Credit Card,liability,,80000,6
+Food,expense,80000,,6
+Product Inventory,asset,50000,,7
+Product Inventory,asset,40000,,7
+Goods Received Not Invoiced,liability,,30000,7
+Goods Received Not Invoiced,liability,,60000,7
+Setup Fee,income,,30000,8
+Service Sales,income,,40000,8
+Product Sales,income,,50000,8
+AR,accounts receivable,120000,,8
+AR,accounts receivable,20000,,9
+AR,accounts receivable,40000,,9
+Savings,bank,,60000,9
+AP,accounts payable,40000,,10
+AP,accounts payable,50000,,10
+AP,accounts payable,60000,,10
+AP,accounts payable,10000,,10
+Savings,bank,,160000,10
