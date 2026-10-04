@@ -1,0 +1,38 @@
+#include "hmalloc.h"
+#include <stdlib.h>
+#include <stdio.h>
+/*You may include any other relevant headers here.*/
+
+
+/*	main()
+ *	Use this function to develop tests for hmalloc. You should not 
+ *	implement any of the hmalloc functionality here. That should be
+ *	done in hmalloc.c
+ *	This file will not be graded. When grading I will replace main 
+ *	with my own implementation for testing.*/
+int main(int argc, char *argv[]){
+	char *string = (char *)hmalloc(27 * sizeof(char));
+	char *up = (char*) hmalloc(28 * sizeof(char));
+
+	if (string == NULL || up == NULL) {
+		printf("Memory allocation failed\n");
+		return 0;
+	}
+
+	for (int i = 0; i < 26; i++) {
+		string[i] = 'a' + i;
+		up[i] = 'A' + i;
+	}
+	string[26] = '\0';
+	up[26] = '!';
+	up[27] = '\0';
+	
+	printf("Lowercase: %s\n", string);
+	printf("Uppercase: %s\n", up);
+	traverse();
+	free(string);
+	traverse();
+	free(up);
+	traverse();
+	return 1;
+}

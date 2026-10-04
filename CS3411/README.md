@@ -7,13 +7,3 @@ communication, performance measurement, and socket programming.
 ## Time
 
 August 2025 - December 2025
-
-## Projects
-
-### Project 1
-
-### Project 2
-
-### Project 3
-
-### Project 4

@@ -8,3 +8,7 @@ programming, and language security.
 ## Time
 
 August 2025 - December 2025
+
+## Projects
+
+Starter code was given for each project. The projects focused more on coding the logic for the lauguages.
